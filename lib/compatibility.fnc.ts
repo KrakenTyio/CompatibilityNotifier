@@ -1,3 +1,4 @@
+// tslint:disable:no-var-keyword prefer-const
 var textOccure: RegExp[] = [
     /^.*Navigation occurred/,
     /^.*Expected identifier/,
