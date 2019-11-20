@@ -1,11 +1,11 @@
 var textOccure: RegExp[] = [
-    /Navigation occurred/,
-    /Expected identifier/,
-    /Expected \'\:\'/,
-    /Object\..+/,
-    /String\..+/,
-    /Array\..+/,
-    /\[Symbol.iterator\].+/
+    /^.*Navigation occurred/,
+    /^.*Expected identifier/,
+    /^.*Expected \'\:\'/,
+    /^.*Object\..+/,
+    /^.*String\..+/,
+    /^.*Array\..+/,
+    /^.*\[Symbol.iterator\].+/
 ];
 
 export function isValidApplication(includeES6: boolean, includeModernizr: boolean) {
